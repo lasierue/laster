@@ -1,0 +1,312 @@
+html {
+  scroll-behavior: smooth;
+}
+.navbar-toggler{
+	background:#3E424B;
+	
+}
+.navbar-nav > li {
+    margin-right: 3em;
+	
+}
+
+.home-wthreepvt {
+    
+    background: url(banner1.jpg) no-repeat;
+    background-size: cover;
+    position: relative;    
+	z-index: -1;
+}
+
+.home-wthreepvt:before {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.banner-main {
+    padding: 15vw 0;
+}
+
+.banner-inner {
+    padding: 8vw 0;
+    background-size: cover;
+}
+.banner-text {
+    background: rgba(0, 0, 0, 0.44);
+    padding: 2em;
+}
+
+.slider-info h4 {
+    font-size: 3em;
+    text-transform: capitalize;
+    color: #eeb71e;
+    margin: 0.3em 0 0.5em;
+    font-weight: 400;
+    text-shadow: 3px 3px 4px #000000;
+}
+
+.slider-info span {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 2em;
+}
+
+.slider-info p {
+    color: #eee;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+}
+
+.btn-wthree {
+    border-radius: 0;
+    padding: 7px 30px;
+    letter-spacing: 1px;
+}
+
+.btn-wthree:hover {
+    background: #000;
+    color: #fff;
+}
+
+li.breadcrumb-item a {
+    color: #000;
+    font-weight: 600;
+}
+
+.breadcrumb-item.active {
+    color: #02c;
+    text-transform: capitalize;
+}
+
+.about{
+	position: relative;
+}
+h3.position {
+    position: absolute;
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    transform: rotate(90deg);
+    right: -2%;
+    top: 30%;
+    color: #333;
+}
+.about-right h4.main {
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin: 1em 0;
+}
+.about-right {
+    padding: 3em;
+}
+.about-right p {
+    font-size: 16px;
+    color: #777;
+}
+a.abt-btn {
+    background: #2a5298;
+    border: 2px solid #2a5298;
+    text-transform: capitalize;
+    color: #fff;
+    padding: 10px 25px;
+    display: inline-block;
+    margin-top: 2em;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.about-right-inner h4 {
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 600;
+    line-height: 38px;
+}
+.about-right-inner p {
+    line-height: 28px;
+}
+.progress-one .progress {
+    height: 0.3rem;
+}
+.progress {
+    font-size: 0.75em;
+    line-height: 8em;
+    text-align: center;
+    background-color: #d6d9da;
+    border-radius: 0.25rem;
+    margin-bottom: 1em;
+}
+.about-right-inner h4.progress-tittle {
+    color: #888;
+    font-size: 0.85em;
+    text-transform: uppercase;
+    margin-bottom: .5em;
+    letter-spacing: 1px;
+    line-height: inherit;
+}
+.tech-btm h5 {
+	font-size: 0.9em;
+	line-height: 1.4em;
+	font-weight: 600;
+}
+
+.menu-img-info h5 {
+	font-size: 1.8em;
+	color: #7b7d80;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.37);
+	line-height: 1.4em;
+}
+
+p.sub-meta {
+	color: #1cbbb4;
+	font-size: 1.2em;
+	font-weight: 600;
+}
+
+.text-info-sec p {
+	color: #666;
+	font-size: 17px;
+}
+
+.text-info-sec h3 {
+    font-size: 2.5em;
+    color: #2a5298;
+    font-weight: 300;
+    text-transform: capitalize;
+    letter-spacing: 0;
+}
+.text-info-sec h5 {
+	font-size: 1.4em;
+	color: #333;
+	text-shadow: 0 1px 2px rgba(18, 18, 19, 0.13);
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.text-info-sec i {
+    color: #333;
+    font-size: 50px;
+}
+.card {
+    border: none;
+}
+.tab-main img {
+    width: 65px;
+}
+.tab-main .card img {
+    width: 80px;
+}
+.middile-inner-con h5 {
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #333;
+}
+.tab-main section {
+    display: none;
+    padding: 2em 0 0;
+    border-top: 1px solid #abc;
+}
+
+.tab-main input {
+    display: none;
+}
+
+.tab-main label {
+    display: inline-block;
+    margin: 0 0 -1px;
+    width: 32.8%;
+    text-align: left;
+    color: #1e272e;
+    padding: 0.2em 0em;
+    letter-spacing: 1px;
+    background: bottom;
+    font-size: 20px;
+    border-left: 4px solid transparent;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.tab-main span {
+    margin-right: 0.5em;
+}
+
+.tab-main label:before {
+    font-family: fontawesome;
+    font-weight: normal;
+    margin-right: 10px;
+    opacity: 0;
+}
+
+.tab-main label:hover {
+    cursor: pointer;
+}
+
+.tab-main input:checked + label {
+    border-bottom: 1px solid #fff;
+    color: #3E424B;
+    border-bottom: 2px solid;
+    background: #f8f9fa;
+    font-size: 20px;
+    padding: 0.2em 0em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.tab-main #tab1:checked ~ #content1,
+.tab-main #tab2:checked ~ #content2,
+.tab-main #tab3:checked ~ #content3,
+.tab-main #tab4:checked ~ #content4 {
+    display: block;
+}
+.contact-form label {
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #333;
+}
+.contact-form .form-control {
+    padding: 0.8rem;
+    color: #495057;
+    border: 1px solid #ddd;
+    border-radius: 0rem;
+    letter-spacing: .5px;
+    font-size: 16px;
+}
+.contact-form textarea {
+    overflow: auto;
+    resize: vertical;
+    height: 8em;
+}
+.contact-form button.btn.btn-default {
+    background: #2a5298;
+    border: 2px solid #2a5298;
+    text-transform: capitalize;
+    color: #fff;
+    padding: 10px 25px;
+    display: inline-block;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 0rem;
+    margin-left: 1em;
+}
+
+
+
+
+footer {
+    background: #3E424B;
+}
+.copyright {
+    background: #3E424B;
+    border-top: 1px solid #444;
+}
+footer p ,footer p a,.copyright p{
+    color: #999;
+}
+.copyright p a{
+    color: #ccc;
+}
